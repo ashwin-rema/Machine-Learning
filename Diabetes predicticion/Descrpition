@@ -1,8 +1,8 @@
-###Problem Statement:
+Problem Statement:
               The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurement from the given dataset. This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases
 Note: Several constraints were placed on the selection of these dataset from a larger database. In particular, all patients included here are females who are at least 21 years old of prima Indian heritage.
 
-###Package And IDE’s:
+##Package And IDE’s:
 Google Colaboratory:  
                       It is a jupyter notebook environment that runs in the browser using google cloud servers. It is a widely popular cloud service for machine learning that features free access to faster GPU and TPU computing resources. Colab notebooks allows you to combine executable code and rich text in a single document, along with images, HTML, laTeX and more. It is simply a cloud-based service that replicates jupyter notebook in the cloud. Colaboratory can be used to perform many tasks such as to write and run code, create its associated documentation and display graphics. It allows for faster GPU access and easy sharing. It is highly integrated with google drive making them easy to set-up and access.
 
@@ -20,7 +20,6 @@ Problem Solution:
               The confusion matrix of the prediction model is found by using the confusion_matrix method. A confusion_matrix is a table that is used to evaluate and visualize the performance of a classification model. The fundamental of a confusion matrix is that the number of correct and incorrect predictions are summed up class-wise.
             Both accuracy_score and confusion_matrix are methods in the metrics class in scikit-learn library.
 
-Code:
 
 Conclusion:
                     The diabetes prediction model has an accuracy of nearly 83%. And the model can be used efficiently to predict whether a patient has diabetes or not using the given diagnostic data to a considerable extent. From the output of the prediction model, the number of correct prediction is 127 and the number of incorrect prediction is 127(type I error is 11 and type II error is 16). The above mentioned prediction model is successfully implemented in python in google colaboratory as a notebook file.
