@@ -2,7 +2,7 @@
 My machine learning projects
 
 1. Diabetes Prediction model for women
-2. Digital digit prediction model
+2. Digital digit recognition model
 
 ## 1.Diabetes Prediction model for women
 
